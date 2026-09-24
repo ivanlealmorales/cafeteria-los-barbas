@@ -1,0 +1,75 @@
+/* ===== CONTAINER EXCLUSIVO DA PÁGINA PEDIDOS ===== */
+.pedidos-container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 40px auto;
+}
+
+.pedidos-container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* ===== TABELA ===== */
+.pedidos-tabela {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.pedidos-tabela thead {
+  background: #6f4e37;
+  color: #fff;
+}
+
+.pedidos-tabela th,
+.pedidos-tabela td {
+  padding: 12px 14px;
+  text-align: center;
+}
+
+.pedidos-tabela th {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.pedidos-tabela tbody tr {
+  border-bottom: 1px solid #eee;
+}
+
+.pedidos-tabela tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.pedidos-tabela tbody tr:hover {
+  background: #f1ece8;
+}
+
+/* ===== BOTÃO ===== */
+.pedidos-btn {
+  background: #6f4e37;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.pedidos-btn:hover {
+  background: #563a28;
+}
+
+/* ===== TEXTO SEM PEDIDOS ===== */
+.pedidos-vazio {
+  text-align: center;
+  font-size: 16px;
+  color: #555;
+  margin-top: 30px;
+}

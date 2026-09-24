@@ -1,0 +1,87 @@
+/* =========================
+   ÁREA PRINCIPAL
+========================= */
+
+.cadastro-geral {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* =========================
+   TÍTULO
+========================= */
+
+.cadastro-geral h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #3a2a2a;
+}
+
+/* =========================
+   CARD DE OPÇÕES
+========================= */
+
+.card-opcoes {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background: #fafafa;
+}
+
+/* =========================
+   LISTA DE OPÇÕES
+========================= */
+
+.lista-opcoes {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* =========================
+   LINHA DE CADA OPÇÃO
+========================= */
+
+.linha-opcao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* 🔥 botão à direita */
+  padding: 10px 0;
+}
+
+.linha-opcao:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
+/* =========================
+   LINKS
+========================= */
+
+.lista-opcoes a {
+  font-size: 18px;
+  color: #3a2a2a;
+  text-decoration: none;
+}
+
+.lista-opcoes a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   BOTÃO PESQUISAR
+========================= */
+
+.btn-pesquisar {
+  background-color: #4b3b47;
+  color: #fff;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-pesquisar:hover {
+  opacity: 0.85;
+}

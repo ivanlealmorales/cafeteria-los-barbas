@@ -1,0 +1,92 @@
+/* rem significa "root em".
+1rem é igual ao tamanho da fonte raiz da página, normalmente definida no elemento <html>.
+Por padrão, quase todos os navegadores definem:
+html {
+  font-size: 16px;
+}
+1rem = 16px
+0.5rem = 8px
+2rem = 32px*/
+
+.footer {                                 /* Início do estilo do rodapé */
+  background-color: #f8f8f8;              /* Cor de fundo do rodapé */
+  padding: 1rem 1.5rem;                   /* Espaçamento interno (vertical e horizontal) */
+  color: #333;                            /* Cor padrão do texto */
+  font-family: Arial, sans-serif;         /* Fonte usada no rodapé */
+  border-top: 1px solid #ececec;          /* Linha superior para separar do conteúdo */
+}
+
+.footer-content {                         /* Container que organiza as seções do rodapé */
+  display: flex;                           /* Ativa o modo flex para alinhar itens lado a lado */
+  flex-wrap: wrap;                         /* Permite quebrar linha se faltar espaço */
+  justify-content: space-between;          /* Distribui as seções com espaço entre elas */
+  max-width: 1100px;                       /* Largura máxima do rodapé */
+  margin: 0 auto;                          /* Centraliza horizontalmente */
+  gap: 1rem;                               /* Espaço entre as seções */
+}
+
+.footer-section {                           /* Cada bloco do rodapé */
+  flex: 1;                                  /* Ocupa espaço proporcional */
+  min-width: 180px;                         /* Evita que fique estreito demais */
+}
+
+.footer-title {                             /* Título de cada seção */
+  font-size: 1rem;                          /* Tamanho da fonte */
+  font-weight: 600;                         /* Deixa o texto mais marcante */
+  color: #7b4e2d;                           /* Cor temática (café) */
+  margin-bottom: 0.5rem;                    /* Espaço abaixo do título */
+}
+
+.footer-section p {                         /* Parágrafos dentro das seções */
+  margin: 0.3rem 0;                         /* Espaço acima e abaixo */
+  font-size: 0.85rem;                       /* Tamanho menor */
+  line-height: 1.3;                         /* Distância entre linhas */
+}
+
+.social-links {                             /* Bloco dos links sociais */
+  display: flex;                             /* Usa flexbox */
+  flex-direction: column;                    /* Coloca os itens um abaixo do outro */
+  gap: 0.3rem;                               /* Espaço entre links */
+}
+
+.social-links a {                           /* Estilo dos links sociais */
+  color: #333;                               /* Cor padrão */
+  text-decoration: none;                     /* Remove sublinhado */
+  font-size: 0.85rem;                        /* Tamanho da fonte */
+  transition: color 0.3s ease;               /* Suaviza animação ao passar o mouse */
+}
+
+.social-links a:hover {                     /* Efeito ao passar o mouse */
+  color: #7b4e2d;                            /* Cor mais destacada */
+}
+
+/* --- RODAPÉ INFERIOR --- */
+.footer-bottom {                            /* Área do final do rodapé */
+  text-align: center;                        /* Centraliza o texto */
+  margin-top: 1rem;                          /* Espaço acima */
+  padding-top: 0.5rem;                       /* Espaço interno superior */
+  border-top: 1px solid #ececec;             /* Linha separadora */
+}
+
+.footer-bottom p {                           /* Texto do rodapé inferior */
+  font-size: 0.8rem;                         /* Tamanho menor */
+  margin: 0;                                 /* Sem margens */
+  color: #555;                               /* Cor suave */
+}
+
+/* === Responsividade === */
+@media (max-width: 768px) {                  /* Ajustes para telas menores */
+  .footer-content {
+    flex-direction: column;                  /* Empilha as seções verticalmente */
+    align-items: center;                     /* Centraliza os itens */
+    text-align: center;                      /* Centraliza o texto */
+  }
+
+  .footer-section {
+    min-width: 100%;                         /* Cada seção ocupa a largura toda */
+  }
+
+  .social-links {
+    align-items: center;                     /* Centraliza os links sociais */
+  }
+}

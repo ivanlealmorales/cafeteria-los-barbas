@@ -1,0 +1,13 @@
+# Dependências
+node_modules/
+
+# Configurações locais
+.env
+.env.*
+!.env.example
+
+# Arquivos gerados pelo Vite
+frontend/dist/
+
+# Logs
+npm-debug.log*

@@ -1,0 +1,54 @@
+.cadastro-geral {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.lista-opcoes {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-opcoes li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.btn-pesquisar {
+  background-color: #4b3b47;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-pesquisar.ativo {
+  background-color: #2e7d32;
+}
+
+.area-pesquisa {
+  margin-top: 20px;
+}
+
+.input-pesquisa {
+  width: 300px;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.resultados-container {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.resultado-item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.resultado-item:hover {
+  background: #f0f0f0;
+}

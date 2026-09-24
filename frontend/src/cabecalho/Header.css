@@ -1,0 +1,60 @@
+/* ===== HEADER ROOT ===== */
+.header {
+  width: 100%;
+  background: #6f4e37;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ===== LOGO ===== */
+.header .logo {
+  color: #fff;
+  font-size: 26px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ===== NAV ===== */
+.header nav {
+  width: 100%;
+}
+
+.header .nav-list {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* ===== LINKS ===== */
+.header .nav-list li a {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.header .nav-list li a:hover {
+  color: #ffd9b3;
+}
+
+/* ===== LINK ATIVO ===== */
+.header .ativo a {
+  border-bottom: 2px solid #ffd9b3;
+  padding-bottom: 3px;
+}
+
+/* ===== RESPONSIVO ===== */
+@media (max-width: 768px) {
+  .header .nav-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}

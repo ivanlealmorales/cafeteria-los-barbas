@@ -1,0 +1,16 @@
+.receita-cafe {
+  background-color: #f8f5f2; /* Define a cor de fundo da caixa — um tom suave de bege, que lembra a cor do café com leite e dá sensação de aconchego. */
+
+  border-radius: 20px; /* Arredonda os cantos da caixa em 20 pixels, deixando o visual mais suave e moderno. */
+
+  padding: 20px; /* Cria um espaçamento interno de 20px entre o conteúdo (texto, títulos) e as bordas da caixa. */
+
+  margin: 20px auto; /* Define um espaço externo de 20px em volta da caixa e centraliza horizontalmente (auto) dentro da página. */
+
+  width: 80%; /* Define que a caixa ocupará 80% da largura disponível, evitando que fique colada nas laterais da tela. */
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil abaixo da caixa (4px de deslocamento vertical, 8px de desfoque), criando leve sensação de profundidade. */
+}
+
+
+
